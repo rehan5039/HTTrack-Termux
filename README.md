@@ -52,7 +52,7 @@ Follow these steps to install and use HTTrack on Termux:
   ```
   Example:
   ```bash
-  view-source:www.pubgmobile.in
+  view-source:https://github.com/rehan5039
   ```
 **HTTrack-Termux-Guide**:
 
