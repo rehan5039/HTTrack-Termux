@@ -54,3 +54,17 @@ Follow these steps to install and use HTTrack on Termux:
   ```bash
   view-source:www.pubgmobile.in
   ```
+**HTTrack-Termux-Guide**:
+
+This GitHub repository serves as a comprehensive guide and tool for utilizing HTTrack on Termux. Here's what you'll find:
+
+- **Installation Commands**: Simple commands to update Termux, set up storage, and install HTTrack.
+  
+- **Usage Instructions**: Learn how to clone websites using HTTrack with step-by-step commands.
+
+- **Features**:
+  - Copy commands with a click.
+  - Stylish buttons for various operations.
+  - Clear and concise steps for a smooth experience.
+
+Feel free to explore, contribute, and enhance your website cloning capabilities with HTTrack on Termux!
