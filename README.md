@@ -68,3 +68,21 @@ This GitHub repository serves as a comprehensive guide and tool for utilizing HT
   - Clear and concise steps for a smooth experience.
 
 Feel free to explore, contribute, and enhance your website cloning capabilities with HTTrack on Termux!
+
+
+# HTTrack: Website Mirror Utility
+
+## Description
+HTTrack is a versatile website mirror utility designed to facilitate downloading entire websites from the internet to a local directory. It recursively builds all structures, retrieves HTML, images, and other files from the server to your computer. The utility ensures that links are rebuilt relatively, enabling seamless browsing of the local site with any browser. It supports mirroring multiple sites concurrently, allowing easy navigation between them. Additionally, HTTrack offers features to update existing mirror sites and resume interrupted downloads. The robot's behavior is fully configurable and includes integrated help documentation.
+
+## Features
+- Recursively downloads entire websites
+- Retains directory structure
+- Retrieves HTML, images, and other files
+- Builds links relatively for local browsing
+- Supports mirroring multiple sites simultaneously
+- Updates existing mirror sites
+- Resumes interrupted downloads
+- Configurable robot behavior
+- Integrated help documentation
+
