@@ -69,6 +69,10 @@ This GitHub repository serves as a comprehensive guide and tool for utilizing HT
 
 Feel free to explore, contribute, and enhance your website cloning capabilities with HTTrack on Termux!
 
+# Quickly Install Command
+  ```bash
+  pkg install git && git clone https://github.com/rehan5039/HTTrack-Termux.git && cd HTTrack-Termux && chmod +x install_httrack.sh && ./install_httrack.sh
+  ```
 
 # HTTrack: Website Mirror Utility
 
