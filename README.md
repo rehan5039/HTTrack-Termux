@@ -38,6 +38,12 @@ Follow these steps to install and use HTTrack on Termux:
     httrack websitename
     ```
 
+### Quickly Install Command
+  ```bash
+  pkg install git && git clone https://github.com/rehan5039/HTTrack-Termux.git && cd HTTrack-Termux && chmod +x Quick_Install.sh && ./Quick_Install.sh
+  ```
+
+
 ## Features
 
 - **Offline Website Cloning:** HTTrack allows you to download a website to your local machine, including all its pages, images, and other assets, so you can browse it offline.
@@ -69,7 +75,7 @@ This GitHub repository serves as a comprehensive guide and tool for utilizing HT
 
 Feel free to explore, contribute, and enhance your website cloning capabilities with HTTrack on Termux!
 
-# Quickly Install Command
+#### Don't Use
   ```bash
   pkg install git && git clone https://github.com/rehan5039/HTTrack-Termux.git && cd HTTrack-Termux && chmod +x install_httrack.sh && ./install_httrack.sh
   ```
