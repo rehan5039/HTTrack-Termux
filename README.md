@@ -75,6 +75,149 @@ This GitHub repository serves as a comprehensive guide and tool for utilizing HT
 
 Feel free to explore, contribute, and enhance your website cloning capabilities with HTTrack on Termux!
 
+
+## Additional Command
+
+- To specify the output directory for the mirrored website:
+```bash
+httrack <website-url> -O /path/to/output-directory
+```
+
+- To set the maximum number of connections:
+```bash
+httrack <website-url> -#N
+```
+Replace N with the desired number of connections.
+
+- To set the maximum depth of the mirror (how many levels deep to follow links):
+```bash
+httrack <website-url> -rN
+```
+Replace N with the desired depth.
+
+These commands will help you customize your website mirroring process according to your needs.
+
+
+- To limit the download speed:
+```bash
+httrack <website-url> --limit-rate=KB/s
+```
+Replace KB/s with the desired download speed limit.
+
+- To continue an interrupted download:
+```bash
+httrack --continue
+```
+
+- To mirror only specific file types:
+```bash
+httrack <website-url> '+*.filetype'
+```
+Replace `.filetype` with the desired file extension.
+
+
+- To specify a log file for recording download progress:
+```bash
+httrack <website-url> -%L log.txt
+```
+
+- To mirror a website while following external links (off-site):
+```bash
+httrack <website-url> -%e0
+```
+
+- To mirror a website while staying within the same domain:
+```bash
+httrack <website-url> -%e1
+```
+
+- To set a user agent:
+```bash
+httrack <website-url> -%u "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+```
+
+- To mirror a website with depth priority (mirroring only specified depth):
+```bash
+httrack <website-url> -r3
+```
+Replace 3 with the desired depth.
+
+- To mirror a website with specified domains:
+```bash
+httrack <website-url> -%A php.net/ -%A python.org/
+```
+Replace php.net/ and python.org/ with the desired domains.
+
+
+- To mirror a website with custom timeout settings:
+```bash
+httrack <website-url> --timeout=30
+```
+Replace 30 with the desired timeout value in seconds.
+
+- To mirror a website with custom proxy settings:
+```bash
+httrack <website-url> --proxy=proxy.example.com:8080
+```
+Replace proxy.example.com:8080 with your proxy server address and port.
+
+
+- To mirror a website with custom user-defined structures:
+```bash
+httrack <website-url> -%P -%qC2t%Pns0u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" -%A php.net/ -%A python.org/
+```
+
+- To mirror a website with verbose logging:
+```bash
+httrack <website-url> -v
+```
+
+- To mirror a website with custom connection timeout:
+```bash
+httrack <website-url> --timeout=60
+```
+Replace 60 with the desired timeout value in seconds.
+
+- To limit the depth of mirroring while following external links:
+```bash
+httrack <website-url> -r4 --ext-depth=2
+```
+Replace 4 with the maximum depth of mirroring and 2 with the maximum external depth.
+
+
+- To mirror a website with custom connection retries:
+```bash
+httrack <website-url> --retries=5
+```
+Replace 5 with the desired number of retries.
+
+- To mirror a website while ignoring robots.txt rules:
+```bash
+httrack <website-url> -%k
+```
+
+- To mirror a website with custom user agent:
+```bash
+httrack <website-url> -%u "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+```
+
+- To mirror a website with custom download bandwidth:
+```bash
+httrack <website-url> --max-rate=100K
+```
+Replace 100K with the desired maximum download rate.
+
+- To mirror a website with custom limits on the number of connections:
+```bash
+httrack <website-url> --max-connections=5
+```
+Replace 5 with the desired maximum number of connections.
+
+- To mirror a website while preserving the directory structure:
+```bash
+httrack <website-url> -%c2
+```
+
 #### Don't Use
   ```bash
   pkg install git && git clone https://github.com/rehan5039/HTTrack-Termux.git && cd HTTrack-Termux && chmod +x install_httrack.sh && ./install_httrack.sh
