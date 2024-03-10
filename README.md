@@ -52,6 +52,24 @@ Follow these steps to install and use HTTrack on Termux:
 
 ## Additional Information
 
+To install wget and recursively download websites using wget, you can follow these steps:
+
+## Install wget
+```
+pkg install wget
+```
+## Recursively download websites
+```
+wget -r [website_url]
+```
+Replace `[website_url]` with the actual URL of the website you want to download recursively.
+
+Make sure to replace `[website_url]` with the actual URL you want to download.
+
+Usage: wget [OPTION]... [URL]...
+
+Try `wget --help' for more options.
+
 - To view the source of a website, use:
   ```bash
   view-source:website-link
