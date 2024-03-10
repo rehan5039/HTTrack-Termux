@@ -70,6 +70,45 @@ Usage: wget [OPTION]... [URL]...
 
 Try `wget --help' for more options.
 
+## step by step guide
+1. **Install Termux**: If you haven't already, install the Termux app from the Google Play Store.
+
+2. **Install Wget**: Open Termux and install Wget by running the following command:
+   ```
+   pkg install wget
+   ```
+
+3. **Clone Website**: Use Wget to clone the website you want. For example, to clone the website "example.com", you would run:
+   ```
+   wget --mirror -p --convert-links -P ./example.com http://example.com
+   ```
+
+4. **Create GitHub Repository**: Go to GitHub and create a new repository. Make sure it's empty.
+
+5. **Initialize Git in the Cloned Directory**: Navigate to the directory where you cloned the website using Termux and initialize Git by running:
+   ```
+   cd example.com
+   git init
+   ```
+
+6. **Add Files and Commit**: Add all the cloned files to the Git repository and commit them:
+   ```
+   git add .
+   git commit -m "Initial commit"
+   ```
+
+7. **Push to GitHub**: Link your local repository to the GitHub repository and push the code:
+   ```
+   git remote add origin <GitHub repository URL>
+   git push -u origin master
+   ```
+
+Replace `<GitHub repository URL>` with the URL of your GitHub repository.
+
+That's it! Your website clone should now be in your GitHub repository.
+
+
+## Additional
 - To view the source of a website, use:
   ```bash
   view-source:website-link
