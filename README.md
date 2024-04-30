@@ -117,6 +117,26 @@ That's it! Your website clone should now be in your GitHub repository.
   ```bash
   view-source:https://github.com/rehan5039
   ```
+
+## More Additional
+To clone a website and run your local host, follow these steps:
+
+1. Install necessary packages:
+```
+pkg install curl
+pkg install php
+```
+
+2. Clone the website:
+```
+curl https://www.youtube.com > index.html
+```
+
+3. Run a local server:
+```
+php -S 127.0.0.1:8080
+```
+  
 **HTTrack-Termux-Guide**:
 
 This GitHub repository serves as a comprehensive guide and tool for utilizing HTTrack on Termux. Here's what you'll find:
