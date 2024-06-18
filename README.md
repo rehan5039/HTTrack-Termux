@@ -332,13 +332,13 @@ The programs mentioned below can serve this purpose very well. The options are s
 ![PageNest 3](img/PageNest3.webp)
 
 ## Cyotek Webcopy
-![Cyotek Webcopy 1](img/Cyotek Webcopy1.webp)
+![Cyotek Webcopy 1](img/CyotekWebcopy1.webp)
 
-![Cyotek Webcopy 2](img/Cyotek Webcopy2.webp)
+![Cyotek Webcopy 2](img/CyotekWebcopy2.webp)
 
 ## HTTracks
-![HTTracks 1](img/HTTracks1.webp)
+![HTTracks 1](img/HTTracks1.jpg)
 
-![HTTracks 2](img/HTTracks2.webp)
+![HTTracks 2](img/HTTracks2.jpg)
 
-![HTTracks 3](img/HTTracks3.webp)
+![HTTracks 3](img/HTTracks3.jpg)
