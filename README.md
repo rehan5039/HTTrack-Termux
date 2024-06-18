@@ -316,3 +316,7 @@ HTTrack is a versatile website mirror utility designed to facilitate downloading
 - Configurable robot behavior
 - Integrated help documentation
 
+# Download Website
+The programs mentioned below can serve this purpose very well. The options are straightforward enough that you can begin downloading an entire website in just a couple of minutes.
+
+## Getleft
