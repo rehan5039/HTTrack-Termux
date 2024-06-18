@@ -316,6 +316,58 @@ HTTrack is a versatile website mirror utility designed to facilitate downloading
 - Configurable robot behavior
 - Integrated help documentation
 
+# HTTrack Installation Guide All Operating System
+
+## Windows
+
+1. Visit the [HTTrack download page](https://github.com/rehan5039/HTTrack-Termux/releases/download/HTTrack/httrack-3.49.2.exe).
+2. Download the Windows version (`WinHTTrack`).
+3. Run the installer and follow the on-screen instructions.
+
+## macOS
+
+You can install HTTrack using Homebrew:
+
+1. If you haven't installed Homebrew, follow the instructions on the [Homebrew website](https://brew.sh/).
+2. Open a terminal and run the following command:
+   ```sh
+   brew install httrack
+   ```
+
+## Linux
+
+### Debian/Ubuntu-based distributions:
+
+1. Open a terminal and run the following commands:
+   ```sh
+   sudo apt update
+   sudo apt install httrack
+   ```
+
+### Fedora:
+
+1. Open a terminal and run the following command:
+   ```sh
+   sudo dnf install httrack
+   ```
+### Arch Linux:
+
+1. Open a terminal and run the following command:
+   ```sh
+   sudo pacman -S httrack
+   ```
+
+### Other distributions:
+
+Refer to your distribution's package manager documentation to install HTTrack.
+
+## Verification
+
+To verify that HTTrack is installed correctly, open a terminal or command prompt and run:
+```sh
+httrack --version
+```
+
 # Download Website
 The programs mentioned below can serve this purpose very well. The options are straightforward enough that you can begin downloading an entire website in just a couple of minutes.
 
@@ -342,3 +394,4 @@ The programs mentioned below can serve this purpose very well. The options are s
 ![HTTracks 2](img/HTTracks2.jpg)
 
 ![HTTracks 3](img/HTTracks3.jpg)
+
