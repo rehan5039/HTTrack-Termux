@@ -320,3 +320,13 @@ HTTrack is a versatile website mirror utility designed to facilitate downloading
 The programs mentioned below can serve this purpose very well. The options are straightforward enough that you can begin downloading an entire website in just a couple of minutes.
 
 ## Getleft
+![Getleft 1](img/Getleft1.webp)
+
+![Getleft 2](img/Getleft2.webp)
+
+## PageNest
+![PageNest 1](img/PageNest1.webp)
+
+![PageNest 2](img/PageNest2.webp)
+
+![PageNest 3](img/PageNest3.webp)
